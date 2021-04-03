@@ -17,5 +17,6 @@
 	<classpathentry kind="lib" path="C:/Users/Usuario/Desktop/eclipse-workspace/Guia 1 hibernate/lib/javassist-3.18.1-GA.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Usuario/Desktop/eclipse-workspace/Guia 1 hibernate/lib/jboss-logging-3.3.0.Final.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Usuario/Desktop/eclipse-workspace/Guia 1 hibernate/lib/mysql-connector-java-5.1.47-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Usuario/Desktop/1UNLa/OO2/Hibernate news/jaxb-ri-2.3.1/jaxb-api-2.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

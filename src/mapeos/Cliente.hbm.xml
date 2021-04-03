@@ -11,4 +11,7 @@
 		<property column="fechaDeNacimiento" name="fechaDeNacimiento" type="LocalDate"/>
 		<property column="baja" name="baja" type="boolean"/>
 	</class>
+	
 </hibernate-mapping>
+
+

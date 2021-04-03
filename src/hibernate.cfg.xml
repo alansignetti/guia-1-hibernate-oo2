@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration ">
+<!-- http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd -->
+
 <hibernate-configuration>
+<!--  -->
 	<session-factory>
 		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
 		<property name="connection.url">jdbc:mysql://localhost/bd-hibernate-una-entidad</property>
@@ -12,4 +15,29 @@
 		<!--Mapeo Entidades -->
 		<mapping resource="mapeos/Cliente.hbm.xml" />
 	</session-factory>
+	
+	<!--<dependencies>
+                      <dependency>
+                        <groupId>org.glassfish.jaxb</groupId>
+                        <artifactId>jaxb-core</artifactId>
+                        <version>2.3.0</version>
+                      </dependency>
+                      <dependency>
+                        <groupId>org.glassfish.jaxb</groupId>
+                        <artifactId>jaxb-runtime</artifactId>
+                        <version>2.3.0</version>
+                      </dependency>
+                      <dependency>
+                        <groupId>javax.activation</groupId>
+                        <artifactId>javax.activation-api</artifactId>
+                        <version>1.2.0</version>
+                      </dependency>
+		</dependencies>  -->
+	
 </hibernate-configuration>
+
+
+                    
+                    
+                    
+                    

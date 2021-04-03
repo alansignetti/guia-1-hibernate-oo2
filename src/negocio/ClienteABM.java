@@ -70,11 +70,14 @@ public class ClienteABM {
 
         
     }
-    public void eliminar(long idCliente) {
+    public void eliminar(long idCliente) throws Exception {
         //en este caso es física en gral. no se se aplicaría este caso de uso, si
         //se hiciera habría que validar que el cliente no tenga dependencias
         Cliente c = dao.traer(idCliente);
         // Implementar que si es null que arroje la excepción la Excepción
+        if(c == null ){
+        	throw new Exception("No se pudo eliminar el id: "+ idCliente +" , debido a que no existe en la Base de Datos");	
+        }
         dao.eliminar(c);
     }
     public List < Cliente > traer() {

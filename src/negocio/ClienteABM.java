@@ -1,4 +1,5 @@
 package negocio;
+
 import java.time.LocalDate;
 import java.util.List;
 
@@ -36,25 +37,7 @@ public class ClienteABM {
        
 
     public void modificar(Cliente c) throws Exception {
-        //implementar antes de actualizar que no exista un cliente con el mismo
-        //documento a modificar y con el mismo id, lanzar la Exception
-    	
-    	
-    	// si no existe un dni como al que se quiere modificar y el id
-    	
-//    	if (dao.traer(c.getDni()) == null & dao.traer(c.getIdCliente()) != null ) {// si existe el id tira error  
-//    		
-//    		throw new Exception("No se pudo modificar debido a que ese ID ya existe en la Base de Datos");	
-//    	}
-//    	else if (dao.traer(c.getDni()) != null & dao.traer(c.getIdCliente()) == null ){
-//    		throw new Exception("No se pudo modificar debido a que ese DNI ya existe en la Base de Datos");	
-//		}
-//    	else {
-//    		dao.actualizar(c);
-//    	}
-    	
-    	//si no existe ningun cliente con el dni al que se quiere modificar
-    	// y tampoco exista un cliente con ese dni y el id
+
     	Cliente cliDni = new Cliente();
     	Cliente cliId = new Cliente();
     	cliDni= dao.traer(c.getDni()); // dni 3333 no existe, y no existe id para ese dni

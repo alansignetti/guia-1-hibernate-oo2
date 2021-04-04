@@ -57,8 +57,8 @@ public class Cliente {
         this.baja = baja;
     }
     public String toString() {
-        return (idCliente + " " + apellido + " " + nombre + " DNI: " + dni + " F.de Nacimiento:" +
+        return ("\n"+idCliente + " " + apellido + " " + nombre + " DNI: " + dni + " F.de Nacimiento:" +
             fechaDeNacimiento.getDayOfMonth() + "/" +
-            fechaDeNacimiento.getMonthValue() + "/" + fechaDeNacimiento.getYear() + ""+baja);
+            fechaDeNacimiento.getMonthValue() + "/" + fechaDeNacimiento.getYear() + " "+ baja );
         }
     }
